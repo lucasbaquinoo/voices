@@ -29,6 +29,7 @@ const GlobalStyles: GlobalStyleComponent<
 
   body {
     ${({ theme, blockScroll = false }) => css`
+      background: ${theme.colors.background.main};
       font-family: ${theme.typography.family.primary};
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;

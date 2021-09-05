@@ -13,6 +13,7 @@
     "@types/react-dom": "^16.9.8",
     "@types/styled-components": "^5.1.7",
     "axios": "^0.21.1",
+    "babel-loader": "8.1.0",
     "browser-image-compression": "^1.0.14",
     "history": "^5.0.0",
     "react": "^17.0.1",

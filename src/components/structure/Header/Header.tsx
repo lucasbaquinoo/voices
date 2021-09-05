@@ -1,3 +1,4 @@
+import logoImg from 'assets/images/logo_branco.png';
 import * as S from './Header.styles';
 
 export type HeaderProps = {
@@ -6,6 +7,7 @@ export type HeaderProps = {
 
 export const Header = ({ children }: HeaderProps) => (
   <S.Wrapper>
-    <h1>Oi</h1>
+    <img src={logoImg} alt="Logo branco" srcSet={logoImg} />
+    {children}
   </S.Wrapper>
 );

@@ -48,6 +48,7 @@ export const colors = {
     public: {
       outlet: '#202020',
     },
+    main: '#000000',
     float: {
       solid: '#1d2224',
     },

@@ -7,4 +7,5 @@ export const sizes = {
   portView: '1300px',
   navbarMobile: '56px',
   businessCard: '286px',
+  fullWidth: '100vh',
 } as const;
